@@ -4,6 +4,7 @@ openai==0.28.1
 pypdf
 chromadb==0.4.15
 tiktoken
+streamlit
 streamlit_extras
 pysqlite3-binary
 sentence-transformers
