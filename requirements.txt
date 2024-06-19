@@ -1,4 +1,5 @@
 langchain
+langchain_community
 openai==0.28.1
 pypdf
 chromadb==0.4.15
