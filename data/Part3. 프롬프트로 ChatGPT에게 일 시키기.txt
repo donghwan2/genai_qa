@@ -1,0 +1,58 @@
+Part3. 프롬프트로 ChatGPT에게 일 시키기
+
+# 프롬프트란?
+AI에게 일시키는 기술, 대화법
+지금까지는 코딩으로 주로 일을 시켰으나, 이제는 사람의 언어로 일을 시킬 수 있게 됨
+
+# 프롬프팅 기본 원리
+Prompt : Introduce the question with a prompt. (프롬프트와 함께 질문을 소개합니다.)
+Role : Give it a role or voice. (역할이나 목소리를 부여하세요.)
+Explicit : Be explicit in your instructions. (지침을 명시적으로 작성하세요.)
+Parameters : Set the parameters of the answer. (답변의 매개변수를 설정합니다.)
+
+Evaluate : Evaluate your AI output content for language, facts, and structure. (언어, 사실 및 구조에 대해 AI 출력 콘텐츠를 평가합니다.)
+Determine : Determine accuracy and corroborate with source. (정확도를 결정하고 소스를 통해 확증하기)
+Identify : Identify biases and misinformation in output. (결과물의 편견과 잘못된 정보 식별 )
+Transform : Transform content to reflect adjustments and new findings. (조정 사항 및 새로운 결과를 반영하여 콘텐츠 변환하기)
+
+# 프롬프트 구성요소
+Role(역할)
+Audience(청중)
+Task(목적)
+Knowledge(지식,정보)
+Policy(규칙)
+   - 쉬운 용어로, 한글/영어로
+Style(말투, 스타일)
+   - 발랄한, 교육적인, 공식적인
+Constraint(제한)
+    - A4용지 반페이지, 1분 이내 읽도록, 100글자 요약,
+Format(형식)
+   - 표, 리스트, 블릿 포인트, 마크 다운
+Examples(예시)
+   - 다음 예시를 바탕으로 설명해줘.
+   - 예시를 들어 설명해줘
+
+# Format(포맷) 종류
+대화 형식(chat form)             : 대화 형식으로 표현하고 싶을 때
+표(table)                             : 비교 항목들이 여러개 있을 때
+블릿 포인트(bullet point)        : 항목들을 ● 으로 표시
+넘버 리스트(number list)        : 항목들을 1,2,3으로 표시
+csv 파일(csv file)                   : 표 데이터를 엑셀 형태로 저장할 때
+마크다운(mark down)            : 가독성 있는 문서 표현 형태
+
+# ChatGPT가 잘 하는 언어 관련 일들(Tasks)
+텍스트 생성 영역에서는 다음을 잘합니다.
+1. 질의 응답(Q/A)
+2. 요약 및 정리
+3. 번역
+4. 말투, 스타일 변경
+5. 편집, 재작성
+6. 창작(시, 광고 문구)
+
+텍스트 분석 영역에서는 다음을 잘합니다.
+1. 키워드 추출(개체명 인식)
+2. 감성 분석
+3. 분류
+4. 주제 파악
+5. 문서 유사도 
+

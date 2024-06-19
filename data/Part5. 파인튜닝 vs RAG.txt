@@ -1,0 +1,12 @@
+Part5. 파인튜닝 vs RAG
+
+# 생성형 AI 성능을 향상시키는 방법들 
+1. Prompt Engineering
+2. Retrieval Augmented Generation(RAG)
+3. Fine-tuning
+4. Create(Train) Foundation Model
+
+# Retrieval Augmented Generation(RAG) : 주어진 입력에 대해 추가적인 관련 정보를 검색하여 텍스트를 생성하는 기술.
+특히 문서 요약, 질문 응답, 정보 검색 등의 응용 분야에서 유용한 기술.
+
+
