@@ -159,26 +159,28 @@ if input := st.chat_input("What is up?"):   # ★★★ 사용자 인풋 창 ★
     message_placeholder.markdown(full_response)
     print("session_state: \n", st.session_state['messages'], "\n")
 
-    # 사용자 인풋들만 따로 파악
-    input_data = [x['content'] for x in st.session_state['messages'][0::2]]
-    print(input_data)
+    ###### 사용자 인풋 관련 ######
 
-    # 사용자 input을 input_data.txt 파일에 저장하기
-    if not os.path.exists('data/input_data.txt'):
-        # 파일이 없으면 'write' 모드로 파일을 생성
-        with open('data/input_data.txt', 'w', encoding='utf-8') as file:
-            # input 입력
-            file.write(input + "\n\n")
-    else:
-        # 파일이 있으면 'append' 모드로 파일 열기
-        with open('data/input_data.txt', 'a', encoding='utf-8') as file:
-            # input 입력
-            file.write(input + "\n\n")
+    # # 사용자 인풋들만 따로 파악
+    # input_data = [x['content'] for x in st.session_state['messages'][0::2]]
+    # print(input_data)
+
+    # # 사용자 input을 input_data.txt 파일에 저장하기
+    # if not os.path.exists('data/input_data.txt'):
+    #     # 파일이 없으면 'write' 모드로 파일을 생성
+    #     with open('data/input_data.txt', 'w', encoding='utf-8') as file:
+    #         # input 입력
+    #         file.write(input + "\n\n")
+    # else:
+    #     # 파일이 있으면 'append' 모드로 파일 열기
+    #     with open('data/input_data.txt', 'a', encoding='utf-8') as file:
+    #         # input 입력
+    #         file.write(input + "\n\n")
     
-    # input 데이터 db에 추가하기
-    textloader = TextLoader("./data/input_data.txt")   # state_of_the_union.txt
-    db = data_to_db(textloader)
-    time.sleep(0.1)
+    # # input 데이터 db에 추가하기
+    # textloader = TextLoader("./data/input_data.txt")   # state_of_the_union.txt
+    # db = data_to_db(textloader)
+    # time.sleep(0.1)
 
 
 
