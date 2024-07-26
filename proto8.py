@@ -132,7 +132,7 @@ if input := st.chat_input("What is up?"):   # ★★★ 사용자 인풋 창 ★
         def process_llm_response(llm_response):
             source_list = []
             print(llm_response['result'])
-            print('\n\nSources:')
+            # print('\n\nSources:')
             for source in llm_response["source_documents"]:
                 print(source.metadata['source'])
                 source_list.append(source.metadata['source'])
