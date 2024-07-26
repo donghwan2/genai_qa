@@ -150,7 +150,7 @@ if input := st.chat_input("What is up?"):   # ★★★ 사용자 인풋 창 ★
 
         # ★★★ full_response(전체 답변 string)을 화면에 출력하기
         message_placeholder.markdown(full_response)
-        st.write("출처 : ", source_list[0].replace('data\\', '').replace('.txt', '').replace('./data/',''))   # 출처 화면에 표시
+        # st.write("출처 : ", source_list[0].replace('data\\', '').replace('.txt', '').replace('./data/',''))   # 출처 화면에 표시
 
     # 생성된 챗봇 답변을 st.session_state에 저장
     st.session_state.messages.append({"role": "assistant", "content": full_response})
