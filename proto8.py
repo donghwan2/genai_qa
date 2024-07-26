@@ -34,7 +34,7 @@ from langchain.vectorstores import Chroma
 
 
 ### ★★★ 헤드 ★★★
-st.markdown("# 🔎Generative GPT")
+st.markdown("# 🔎제2의나라 GPT")
 
 
 ### st.session_state에 대화 내용 저장
